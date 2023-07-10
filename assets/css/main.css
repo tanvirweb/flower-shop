@@ -112,7 +112,7 @@ p {
 /* Products Section */
 .products {
     text-align: center;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
 .products h2 {
@@ -161,4 +161,32 @@ p {
     font-size: 20px;
     font-weight: 700;
     text-decoration: underline;
+}
+
+/* Services Section */
+.services {
+    margin-bottom: 100px;
+}
+
+.services-wrapper {
+    background-color: rgba(39, 39, 39, 0.05);
+    border-radius: 8px;
+    display: flex;
+    padding: 50px 80px;
+    gap: 20px;
+    text-align: center;
+}
+
+.service {
+    width: 33%;
+}
+
+.service img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 15px;
+}
+
+.service p {
+    font-size: 20px;
 }
