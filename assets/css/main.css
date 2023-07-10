@@ -247,3 +247,40 @@ p {
 .social-feed-wrap img {
     width: 100%;
 }
+
+/* Form Section */
+.form {
+    margin-bottom: 100px;
+}
+
+.form-wrap {
+    background-image: url("../images/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding: 110px 200px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.form-wrap h2 {
+    margin-bottom: 10px;
+}
+
+.form-wrap p {
+    margin-bottom: 20px;
+}
+
+input[type="email"] {
+    background-color: #FFF;
+    border-color: transparent;
+    padding: 16px 20px;
+    width: 60%;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+
+input[type="submit"] {
+    font-size: 16px;
+    cursor: pointer;
+}
