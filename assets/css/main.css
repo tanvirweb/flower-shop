@@ -34,9 +34,13 @@ p {
     background-color: #E55473;
     border: 1px solid #E55473;
     border-radius: 8px;
-    padding: 15px 25px;
+    padding: 15px 30px;
     text-decoration: none;
     display: inline-block;
+}
+
+.text-color {
+    color: #E55473;
 }
 
 /* Header Section */
@@ -45,7 +49,7 @@ p {
     margin-bottom: 150px;
 }
 
-.header-wrapper {
+.header-wrap {
     display: flex;
     align-items: center;
     gap: 100px;
@@ -168,7 +172,7 @@ p {
     margin-bottom: 100px;
 }
 
-.services-wrapper {
+.services-wrap {
     background-color: rgba(39, 39, 39, 0.05);
     border-radius: 8px;
     display: flex;
@@ -189,4 +193,57 @@ p {
 
 .service p {
     font-size: 20px;
+}
+
+/* Deal Section */
+.deal {
+    background-color: rgba(229, 84, 115, 0.05);
+    padding: 100px 0;
+    margin-bottom: 150px;
+}
+
+.deal-wrap {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.deal-content {
+    width: 60%;
+}
+
+.deal-img {
+    width: 40%;
+}
+
+.deal-content h2,
+.deal-content p {
+    margin-bottom: 20px;
+}
+
+/* Social Feed Section */
+.social-feed {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.social-feed h2 {
+    margin-bottom: 20px;
+}
+
+.social-feed p {
+    margin-bottom: 40px;
+}
+
+.social-feed-wrap {
+    display: flex;
+    gap: 20px;
+}
+
+.social-feed-wrap div {
+    width: 25%;
+}
+
+.social-feed-wrap img {
+    width: 100%;
 }
