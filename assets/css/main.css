@@ -14,6 +14,10 @@ h1, h2, h3, h4, h5 {
     font-weight: 800;
 }
 
+h2 {
+    font-size: 35px;
+}
+
 p {
     line-height: 30px;
 }
@@ -65,4 +69,42 @@ p {
     width: 95%;
     padding-top: 50px;
     margin-bottom: -4px;
+}
+
+/* Welcome Message Section */
+.welcome-message {
+    margin-bottom: 150px;
+}
+
+.welcome-message-wrap {
+    display: flex;
+    background-color: rgba(229, 84, 115, 0.80);
+    color: #FFF;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.welcome-message-image {
+    width: 55%;
+}
+
+.welcome-message-content {
+    width: 45%;
+}
+
+.welcome-message-image {
+    background-image: url("../images/pexels-anna-shvets-5894037.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.welcome-message-content {
+    text-align: center;
+    padding: 150px 80px;
+}
+
+.welcome-message-content h2 {
+    color: #FFF;
+    margin-bottom: 20px;
 }
