@@ -113,6 +113,11 @@ p {
     margin-bottom: 20px;
 }
 
+.welcome-message-content h2 span {
+    font-family: 'Tangerine', cursive;
+    font-size: 80px;
+}
+
 /* Products Section */
 .products {
     text-align: center;
